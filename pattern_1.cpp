@@ -14,7 +14,7 @@ int main()
     //         cout<<patt<<" ";
     //         count++;
     //     }
-    //     cout<<endl;
+    //     cout<<endl; 
 
     
     
@@ -67,12 +67,4 @@ for (int i = 0; i < n; i++)
     }
     cout<<endl;
 }
-
-
-
-
-
-
-
-
 }
