@@ -97,27 +97,30 @@ int main()
 
 //*******************************************************************************************************
 
-
-
+// {
 // int a =14;
 // a = update(a);
 // cout << a << endl;
-
+//}
 // {
+
+
 
 // cout<< INT_MAX << endl << INT_MIN ;              **********************************************these are created by the use of <climits> library 
  // }
 
- {   //********************************to find unique number in an array 
-    int size=9;
-    int arr[size] = {1 ,3 ,1 ,3 ,6 ,6 ,7 ,10 ,7};
-     int answer = 0;
-    for (int i = 0 ; i< size ; i++){
-        answer = answer ^ arr[i];                   //performing the xor on all elements so only single one will be left. as exor make two same element 0 and 0 and different makes different.
-    }
-    cout<< answer;
+//  {   //********************************to find unique number in an array 
+//     int size=9;
+//     int arr[size] = {1 ,3 ,1 ,3 ,6 ,6 ,7 ,10 ,7};
+//      int answer = 0;
+//     for (int i = 0 ; i< size ; i++){
+//         answer = answer ^ arr[i];                   //performing the xor on all elements so only single one will be left. as exor make two same element 0 and 0 and different makes different.
+//     }
+//     cout<< answer;
+// }
+
+{
+ 
 
 
-
-
- }
+}
