@@ -31,6 +31,17 @@ v.clear();                       //isme size zero hota hai but capacity zero nah
  cout<<v.size()<< " "<<v.capacity()<<endl;
 
 
+vector<int> a(5,2);
+for(int i:a){
+    cout<<i<<" ";
+}cout<<endl;
+vector<int> last(a);
+for(int i:last){
+    cout<<i<<" ";
+}
+
+
+
 
  
 }
