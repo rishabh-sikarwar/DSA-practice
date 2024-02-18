@@ -23,4 +23,26 @@ for(auto i:m){
 cout<<"finding 13 ->  "<< m.count(13);
 
 
+cout<<"before erase : "<<endl;
+for(auto i:m){
+    cout<<i.first<< " " << i.second<<endl;
+}
+
+m.erase(19);
+cout<<"after erase : " << endl;
+for(auto i:m){
+    cout<<i.first<< " " << i.second<<endl;
+}
+
+auto it = m.find(2);           // iske bad jo bhi iterator hoga vo print ho jayega...
+for(auto i = it; i!= m.end() ; i++){
+    cout<< (*i).first << endl;
+}
+
+
+// insert , erase , find , count all have complexity O( log n ) ........................
+
+
+
+
 }
