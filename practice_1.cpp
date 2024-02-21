@@ -119,8 +119,21 @@ int main()
 //     cout<< answer;
 // }
 
+// {
+//     int n ;
+//     cin>>n;
+// bool ans = false;
+//        int m = n-1;
+//        if( (n & m) == 0 ){
+//            ans = true;
+//        }  
+//        cout<< ans;
+
+
+// }
+
 {
- 
-
-
+    int zero = 0 ;
+    zero>>2;
+    cout<< zero;
 }
